@@ -12,31 +12,24 @@
 local lspconfig = require("lspconfig")
 
 -- LSP servers
-lspconfig.rust_analyzer.setup({
-})
+lspconfig.rust_analyzer.setup({})
 
-lspconfig.clangd.setup({
-})
+lspconfig.clangd.setup({})
 
-lspconfig.tsserver.setup({
-})
+lspconfig.tsserver.setup({})
 
 lspconfig.lua_ls.setup({
     settings = { Lua = { diagnostics = { globals = { "vim", "opt", "g", "kmap", "cmd" } } } },
 })
 
-lspconfig.marksman.setup({
-})
+lspconfig.marksman.setup({})
 
 lspconfig.ltex.setup({
     filetypes = { "bib", "gitcommit", "org", "plaintex", "rst", "rnoweb", "text" },
 })
 
-lspconfig.bashls.setup({
-})
+lspconfig.bashls.setup({})
 
-lspconfig.html.setup({
-})
+lspconfig.html.setup({})
 
-lspconfig.cssls.setup({
-})
+lspconfig.cssls.setup({})
