@@ -109,7 +109,10 @@ g.loaded_netrwPlugin = 1
 g.NERDTreeShowHidden = 1
 
 -- COQ settings
-g.coq_settings = { auto_start = "shut-up", keymap = { recommended = false, jump_to_mark = "null" } }
+g.coq_settings = {
+    auto_start = "shut-up",
+    keymap = { recommended = false, jump_to_mark = "null" }
+}
 
 -- Settings for line highlighting
 opt.list = true

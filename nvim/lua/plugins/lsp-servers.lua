@@ -33,3 +33,5 @@ lspconfig.bashls.setup({})
 lspconfig.html.setup({})
 
 lspconfig.cssls.setup({})
+
+lspconfig.csharp_ls.setup({})
