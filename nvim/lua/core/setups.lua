@@ -10,9 +10,7 @@
 -- SETUPS
 
 -- NvimTree
-require("nvim-tree").setup({
-	on_attach = on_attach,
-})
+require("nvim-tree").setup()
 
 -- Alpha start screen / dashboard
 require("alpha").setup(require("alpha.themes.dashboard").config)
@@ -20,16 +18,16 @@ require("alpha.themes.dashboard").section.footer.val = require("alpha.fortune")(
 
 -- Everforest theme
 require("everforest").setup({
-	background = "medium",
-	transparent_background_level = 0,
+    background = "medium",
+    transparent_background_level = 0,
 })
 
 -- Lualine status bar
 require("lualine").setup({
-	options = {
-		component_separators = " ",
-		section_separators = { left = "", right = "" },
-	},
+    options = {
+        component_separators = " ",
+        section_separators = { left = "", right = "" },
+    },
 })
 
 -- Nvim Autopairs
@@ -40,7 +38,7 @@ require("gitsigns").setup()
 
 -- Line highlighting
 require("indent_blankline").setup({
-	char = "┊",
+    char = "┊",
 })
 
 -- Hex color highlighting
