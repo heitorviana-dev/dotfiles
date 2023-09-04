@@ -24,7 +24,6 @@ require("core.scripts")             -- Scripts
 
 require("plugins.treesitter")       -- Treesitter syntax highlighting
 require("plugins.lsp-mason")        -- Mason LSP servers
-require("plugins.lsp-servers")      -- Language server setup
 require("plugins.lsp-config-setup") -- LSPconfig setup
 require("plugins.gitsigns-config")  -- Gitsigns mappings
 require("plugins.autopairs")        -- Nvim AutoPairs
