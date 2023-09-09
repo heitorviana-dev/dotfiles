@@ -96,7 +96,7 @@ precmd() { vcs_info }
 
 # Prompt Appearance
 setopt PROMPT_SUBST
-PROMPT='%B%F{green}[%n%f@%F{green}%m]%f %F{blue} %1~%f%b ${vcs_info_msg_0_}>===> '
+PROMPT='%B%F{green}❬%n%f@%F{green}%m❭%f %F{blue} %1~%f%b ${vcs_info_msg_0_}>===> '
 
 # XDG user dirs
 source ~/.config/user-dirs.dirs
