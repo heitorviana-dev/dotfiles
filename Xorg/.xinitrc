@@ -37,9 +37,9 @@ fi
 
 # Toggle external monitor
 if xrandr | grep "$extern disconnected"; then
-	xrandr --output "$extern" --off --output "$intern" --auto
+	xrandr --output "$intern" --auto --output "$extern" --off
 else
-	xrandr --output "$intern" --primary --auto --output "$extern" --above "$intern" --auto
+	xrandr --output "$intern" --primary --auto --output "$extern" --auto --above "$intern"
 fi
 
 # Keyboard settings
