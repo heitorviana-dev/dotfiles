@@ -494,7 +494,7 @@ $ timedatectl set-ntp true
 ### Xorg
 
 ```
-$ sudo pacman -S xorg-server xorg-apps xorg-xinit xclip xdotool
+$ sudo pacman -S xorg-server xorg-apps xorg-xinit xclip xdotool xorg-drivers
 ```
 
 ℹ️ If there is a NVIDIA GPU in your computer you can run the following command to create automatically a `xorg.conf` file in `/etc/X11/xorg.conf`.
