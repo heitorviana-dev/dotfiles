@@ -15,6 +15,9 @@ g.mapleader = ","
 -- Open new terminal
 kmap.set("n", "<leader>t", ":split | terminal<cr>")
 
+-- Redo
+kmap.set("n", "U", "<C-r>")
+
 -- Split navigation using CTRL + {j, k, h, l}
 kmap.set("n", "<c-k>", "<c-w>k")
 kmap.set("n", "<c-j>", "<c-w>j")
