@@ -86,10 +86,15 @@ opt.history = 1000
 opt.wildmenu = true
 
 -- Bash-like completion
-opt.wildmode = "list:longest"
+opt.wildmode = "list:full"
 
 -- Ignoring files with certain extensions
 opt.wildignore = "*.docx,*.jpg,*.png,*.gif,*.pdf,*.pyc,*.exe,*.flv,*.img,*.xlsx"
+
+-- Command completion in popup menu
+opt.wildoptions = "pum"
+opt.pumblend = 7   -- Make popup translucent
+opt.pumheight = 20 -- Max amount of items
 
 -- Mouse support
 opt.mouse = "a"

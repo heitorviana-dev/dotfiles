@@ -53,11 +53,7 @@ return require("packer").startup(function(use)
     use("lukas-reineke/indent-blankline.nvim") -- Line highlighting
     use("norcalli/nvim-colorizer.lua")         -- Hex color highlighting
     use("MattesGroeger/vim-bookmarks")         -- Bookmarks
-
-    ------- Git
-    use({
-        "lewis6991/gitsigns.nvim", -- Git signs
-    })
+    use("lewis6991/gitsigns.nvim")             -- Git signs
 
     ------- LSP
     use({
@@ -69,4 +65,7 @@ return require("packer").startup(function(use)
     use({ "ms-jpq/coq_nvim", branch = "coq" })            -- Autocompletion
     use({ "ms-jpq/coq.artifacts", branch = "artifacts" }) -- 9000+ snippets
     use({ "ms-jpq/coq.thirdparty", branch = "3p" })       -- Dependencies
+
+    ------- Debugging
+    use({ "rcarriga/nvim-dap-ui", requires = { "mfussenegger/nvim-dap" } }) -- Debugger
 end)

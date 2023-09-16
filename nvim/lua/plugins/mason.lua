@@ -39,7 +39,7 @@ require("mason-lspconfig").setup_handlers({
         lspconfig[server].setup({})
     end,
     ["lua_ls"] = function()
-        lspconfig.lua_ls.setup {
+        lspconfig.lua_ls.setup({
             settings = {
                 Lua = {
                     diagnostics = {
@@ -47,6 +47,6 @@ require("mason-lspconfig").setup_handlers({
                     }
                 }
             }
-        }
+        })
     end
 })
