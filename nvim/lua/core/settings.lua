@@ -93,7 +93,7 @@ opt.wildignore = "*.docx,*.jpg,*.png,*.gif,*.pdf,*.pyc,*.exe,*.flv,*.img,*.xlsx"
 
 -- Command completion in popup menu
 opt.wildoptions = "pum"
-opt.pumblend = 7   -- Make popup translucent
+--opt.pumblend = 7   -- Make popup translucent
 opt.pumheight = 20 -- Max amount of items
 
 -- Mouse support
