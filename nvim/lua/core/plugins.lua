@@ -10,6 +10,7 @@
 -- PLUGINS
 
 return require("packer").startup(function(use)
+    -------- Packet Manager
     use("wbthomason/packer.nvim") -- Packer
 
     -------- Appearance
@@ -38,6 +39,16 @@ return require("packer").startup(function(use)
         run = ":TSUpdate",
     })
 
+    -- Autocompletion
+    use({
+        "hrsh7th/cmp-nvim-lsp",
+        "hrsh7th/cmp-buffer",
+        "hrsh7th/cmp-path",
+        "hrsh7th/cmp-cmdline",
+        "hrsh7th/nvim-cmp",
+        "hrsh7th/cmp-vsnip",
+    })
+
     use({
         "nvim-telescope/telescope.nvim", -- Telescope
         tag = "0.1.0",
@@ -61,10 +72,6 @@ return require("packer").startup(function(use)
         "williamboman/mason-lspconfig.nvim", -- lspconfig integration
         "neovim/nvim-lspconfig",             -- LSP configuration
     })
-
-    use({ "ms-jpq/coq_nvim", branch = "coq" })            -- Autocompletion
-    use({ "ms-jpq/coq.artifacts", branch = "artifacts" }) -- 9000+ snippets
-    use({ "ms-jpq/coq.thirdparty", branch = "3p" })       -- Dependencies
 
     ------- Debugging
     use({ "rcarriga/nvim-dap-ui", requires = { "mfussenegger/nvim-dap" } }) -- Debugger
