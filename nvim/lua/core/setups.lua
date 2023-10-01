@@ -40,7 +40,7 @@ require("nvim-autopairs").setup()
 require("gitsigns").setup()
 
 -- Line highlighting
-require("indent_blankline").setup({
+require("ibl").setup({
     char = "┊",
 })
 
