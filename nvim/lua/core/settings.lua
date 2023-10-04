@@ -117,7 +117,7 @@ g.NERDTreeShowHidden = 1
 opt.list = true
 
 -- GUI settings
-opt.guifont = { "FiraCode Nerd Font", ":h11" }
+opt.guifont = { "FiraCode Nerd Font", ":h14" }
 
 -- Settings for Neovide
 g.neovide_cursor_vfx_mode = "railgun"

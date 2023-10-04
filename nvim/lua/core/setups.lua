@@ -40,9 +40,7 @@ require("nvim-autopairs").setup()
 require("gitsigns").setup()
 
 -- Line highlighting
-require("ibl").setup({
-    char = "┊",
-})
+require("ibl").setup()
 
 -- Hex color highlighting
 require("colorizer").setup()
