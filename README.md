@@ -1,5 +1,11 @@
 # Arch Linux Everforest Ricing
 
+<div style="color: #FFF; background-color: #E67E80;">
+**This repository is no longer maintained!**
+
+I've switched from X11 to Wayland (Hyprland). You can find the new repository over here: https://github.com/3rfaan/arch-everforest
+</div>
+
 This is a straight-forward guide for ricing Arch Linux with the [Everforest](https://github.com/sainnhe/everforest) colorscheme theme.
 
 I use a minimal install of Arch Linux on UTM (QEMU virtual machine) on a Macbook Air M1 (2020). This guide should also work with the new Macbook Air M2 and the Pro versions.
