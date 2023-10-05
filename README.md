@@ -1,8 +1,6 @@
 # Arch Linux Everforest Ricing
 
-<span style="color: #E67E80">**This repository is no longer maintained!**</span>
-
-<span style="color: #E67E80">I've switched from X11 to Wayland (Hyprland). You can find the new repository over here: https://github.com/3rfaan/arch-everforest</span>
+⚠️  **This repository is no longer maintained! I've switched from X11 to Wayland (Hyprland). You can find the new repository over here: https://github.com/3rfaan/arch-everforest**
 
 This is a straight-forward guide for ricing Arch Linux with the [Everforest](https://github.com/sainnhe/everforest) colorscheme theme.
 
