@@ -424,7 +424,7 @@ $ sudo pacman -S alsa-utils alsa-plugins
 $ sudo pacman -S pavucontrol
 ```
 
-PulseAudio Applet:
+PulseAudio Applet (In my case i had to make a cleanBuild, so i chose I for install, and N for none in diffs to show):
 
 ```
 $ yay -S pa-applet-git
@@ -448,6 +448,7 @@ Enable SSH, DHCP and NM:
 ```
 $ sudo systemctl enable sshd
 $ sudo systemctl enable dhcpcd
+$ sudo systemctl enable NetworkManager
 ```
 
 ### Bluetooth
