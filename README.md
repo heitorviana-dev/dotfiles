@@ -47,7 +47,7 @@ Check the name of the hard disk:
 fdisk -l
 ```
 
-Use the name (in my case _vda_) to start the `fdisk` partitioning tool:
+Use the name (in my case _vda_, because im using a virtual machine) to start the `fdisk` partitioning tool:
 
 ```
 fdisk /dev/vda
