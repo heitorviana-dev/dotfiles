@@ -276,6 +276,12 @@ Install `grub` and `efibootmgr`:
 $ pacman -S grub efibootmgr
 ```
 
+After I write the code above an error occurred with the PGP signature, if in your case the same error occurred, write the code below:
+
+```
+$ pacman-key --lsign-key 77193F152BDBE6A6
+```
+
 Run the following command:
 
 ```
